@@ -2,7 +2,7 @@
 //  FSAppDelegate.m
 //  FeedStore
 //
-//  Created by Henry Li on 12-8-27.
+//  Created by Henry Li on 12-8-28.
 //  Copyright (c) 2012 MagicCube. All rights reserved.
 //
 
