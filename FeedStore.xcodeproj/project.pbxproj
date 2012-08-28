@@ -18,6 +18,7 @@
 		BA74559315EC8066004A6591 /* FeedStore-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA74559015EC8066004A6591 /* FeedStore-Info.plist */; };
 		BA74559415EC8066004A6591 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA74559215EC8066004A6591 /* main.m */; };
 		BA74559815EC810D004A6591 /* FSResource.m in Sources */ = {isa = PBXBuildFile; fileRef = BA74559715EC810D004A6591 /* FSResource.m */; };
+		BAC801C515EC8A8F009332E1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAC801C715EC8A8F009332E1 /* Localizable.strings */; };
 		BAFCD84615EC7B8D00337997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFCD84515EC7B8D00337997 /* UIKit.framework */; };
 		BAFCD84815EC7B8D00337997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFCD84715EC7B8D00337997 /* Foundation.framework */; };
 		BAFCD84A15EC7B8D00337997 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFCD84915EC7B8D00337997 /* CoreGraphics.framework */; };
@@ -40,6 +41,8 @@
 		BA74559215EC8066004A6591 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA74559615EC810D004A6591 /* FSResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSResource.h; sourceTree = "<group>"; };
 		BA74559715EC810D004A6591 /* FSResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSResource.m; sourceTree = "<group>"; };
+		BAC801C615EC8A8F009332E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BAC801C815EC8AAD009332E1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		BAFCD84115EC7B8D00337997 /* FeedStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFCD84515EC7B8D00337997 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BAFCD84715EC7B8D00337997 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				BA74558515EC8005004A6591 /* Images */,
+				BAC801C115EC8A5B009332E1 /* Locales */,
 				BA74558915EC8005004A6591 /* Wallpapers */,
 			);
 			path = Resources;
@@ -119,6 +123,14 @@
 			name = Utils;
 			path = Classes/Utils;
 			sourceTree = SOURCE_ROOT;
+		};
+		BAC801C115EC8A5B009332E1 /* Locales */ = {
+			isa = PBXGroup;
+			children = (
+				BAC801C715EC8A8F009332E1 /* Localizable.strings */,
+			);
+			path = Locales;
+			sourceTree = "<group>";
 		};
 		BAFCD83615EC7B8D00337997 = {
 			isa = PBXGroup;
@@ -219,6 +231,7 @@
 				BA74558D15EC8005004A6591 /* logo@2x.png in Resources */,
 				BA74558E15EC8005004A6591 /* 01.png in Resources */,
 				BA74559315EC8066004A6591 /* FeedStore-Info.plist in Resources */,
+				BAC801C515EC8A8F009332E1 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +251,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAC801C715EC8A8F009332E1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAC801C615EC8A8F009332E1 /* en */,
+				BAC801C815EC8AAD009332E1 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BAFCD85715EC7B8D00337997 /* Debug */ = {
