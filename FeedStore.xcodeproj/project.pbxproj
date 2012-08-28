@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA74557F15EC7FAA004A6591 /* FSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA74557915EC7FAA004A6591 /* FSAppDelegate.m */; };
+		BA74558015EC7FAA004A6591 /* FSHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA74557C15EC7FAA004A6591 /* FSHeaderView.m */; };
+		BA74558115EC7FAA004A6591 /* FSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA74557E15EC7FAA004A6591 /* FSRootViewController.m */; };
+		BA74558315EC7FBE004A6591 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA74558215EC7FBE004A6591 /* QuartzCore.framework */; };
+		BA74558B15EC8005004A6591 /* header_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BA74558615EC8005004A6591 /* header_bg.png */; };
+		BA74558C15EC8005004A6591 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BA74558715EC8005004A6591 /* logo.png */; };
+		BA74558D15EC8005004A6591 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA74558815EC8005004A6591 /* logo@2x.png */; };
+		BA74558E15EC8005004A6591 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = BA74558A15EC8005004A6591 /* 01.png */; };
+		BA74559315EC8066004A6591 /* FeedStore-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA74559015EC8066004A6591 /* FeedStore-Info.plist */; };
+		BA74559415EC8066004A6591 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA74559215EC8066004A6591 /* main.m */; };
+		BA74559815EC810D004A6591 /* FSResource.m in Sources */ = {isa = PBXBuildFile; fileRef = BA74559715EC810D004A6591 /* FSResource.m */; };
+		BAFCD84615EC7B8D00337997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFCD84515EC7B8D00337997 /* UIKit.framework */; };
+		BAFCD84815EC7B8D00337997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFCD84715EC7B8D00337997 /* Foundation.framework */; };
+		BAFCD84A15EC7B8D00337997 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFCD84915EC7B8D00337997 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA74557815EC7FAA004A6591 /* FSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSAppDelegate.h; path = Classes/FSAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		BA74557915EC7FAA004A6591 /* FSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSAppDelegate.m; path = Classes/FSAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		BA74557B15EC7FAA004A6591 /* FSHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSHeaderView.h; sourceTree = "<group>"; };
+		BA74557C15EC7FAA004A6591 /* FSHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSHeaderView.m; sourceTree = "<group>"; };
+		BA74557D15EC7FAA004A6591 /* FSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSRootViewController.h; sourceTree = "<group>"; };
+		BA74557E15EC7FAA004A6591 /* FSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSRootViewController.m; sourceTree = "<group>"; };
+		BA74558215EC7FBE004A6591 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BA74558615EC8005004A6591 /* header_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header_bg.png; sourceTree = "<group>"; };
+		BA74558715EC8005004A6591 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		BA74558815EC8005004A6591 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		BA74558A15EC8005004A6591 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		BA74559015EC8066004A6591 /* FeedStore-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FeedStore-Info.plist"; sourceTree = "<group>"; };
+		BA74559115EC8066004A6591 /* FeedStore-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FeedStore-Prefix.pch"; sourceTree = "<group>"; };
+		BA74559215EC8066004A6591 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA74559615EC810D004A6591 /* FSResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSResource.h; sourceTree = "<group>"; };
+		BA74559715EC810D004A6591 /* FSResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSResource.m; sourceTree = "<group>"; };
+		BAFCD84115EC7B8D00337997 /* FeedStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFCD84515EC7B8D00337997 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BAFCD84715EC7B8D00337997 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BAFCD84915EC7B8D00337997 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAFCD83E15EC7B8D00337997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFCD84615EC7B8D00337997 /* UIKit.framework in Frameworks */,
+				BA74558315EC7FBE004A6591 /* QuartzCore.framework in Frameworks */,
+				BAFCD84A15EC7B8D00337997 /* CoreGraphics.framework in Frameworks */,
+				BAFCD84815EC7B8D00337997 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA74557A15EC7FAA004A6591 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BA74557B15EC7FAA004A6591 /* FSHeaderView.h */,
+				BA74557C15EC7FAA004A6591 /* FSHeaderView.m */,
+				BA74557D15EC7FAA004A6591 /* FSRootViewController.h */,
+				BA74557E15EC7FAA004A6591 /* FSRootViewController.m */,
+			);
+			name = UI;
+			path = Classes/UI;
+			sourceTree = SOURCE_ROOT;
+		};
+		BA74558415EC8005004A6591 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA74558515EC8005004A6591 /* Images */,
+				BA74558915EC8005004A6591 /* Wallpapers */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BA74558515EC8005004A6591 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BA74558615EC8005004A6591 /* header_bg.png */,
+				BA74558715EC8005004A6591 /* logo.png */,
+				BA74558815EC8005004A6591 /* logo@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		BA74558915EC8005004A6591 /* Wallpapers */ = {
+			isa = PBXGroup;
+			children = (
+				BA74558A15EC8005004A6591 /* 01.png */,
+			);
+			path = Wallpapers;
+			sourceTree = "<group>";
+		};
+		BA74558F15EC8066004A6591 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA74559015EC8066004A6591 /* FeedStore-Info.plist */,
+				BA74559115EC8066004A6591 /* FeedStore-Prefix.pch */,
+				BA74559215EC8066004A6591 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA74559515EC810D004A6591 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BA74559615EC810D004A6591 /* FSResource.h */,
+				BA74559715EC810D004A6591 /* FSResource.m */,
+			);
+			name = Utils;
+			path = Classes/Utils;
+			sourceTree = SOURCE_ROOT;
+		};
+		BAFCD83615EC7B8D00337997 = {
+			isa = PBXGroup;
+			children = (
+				BA74558F15EC8066004A6591 /* Supporting Files */,
+				BAFCD84B15EC7B8D00337997 /* Classes */,
+				BA74558415EC8005004A6591 /* Resources */,
+				BAFCD84415EC7B8D00337997 /* Frameworks */,
+				BAFCD84215EC7B8D00337997 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAFCD84215EC7B8D00337997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAFCD84115EC7B8D00337997 /* FeedStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAFCD84415EC7B8D00337997 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAFCD84515EC7B8D00337997 /* UIKit.framework */,
+				BAFCD84915EC7B8D00337997 /* CoreGraphics.framework */,
+				BA74558215EC7FBE004A6591 /* QuartzCore.framework */,
+				BAFCD84715EC7B8D00337997 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAFCD84B15EC7B8D00337997 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BA74557A15EC7FAA004A6591 /* UI */,
+				BA74559515EC810D004A6591 /* Utils */,
+				BA74557815EC7FAA004A6591 /* FSAppDelegate.h */,
+				BA74557915EC7FAA004A6591 /* FSAppDelegate.m */,
+			);
+			name = Classes;
+			path = FeedStore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAFCD84015EC7B8D00337997 /* FeedStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAFCD85915EC7B8D00337997 /* Build configuration list for PBXNativeTarget "FeedStore" */;
+			buildPhases = (
+				BAFCD83D15EC7B8D00337997 /* Sources */,
+				BAFCD83E15EC7B8D00337997 /* Frameworks */,
+				BAFCD83F15EC7B8D00337997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeedStore;
+			productName = FeedStore;
+			productReference = BAFCD84115EC7B8D00337997 /* FeedStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAFCD83815EC7B8D00337997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FS;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = MagicCube;
+			};
+			buildConfigurationList = BAFCD83B15EC7B8D00337997 /* Build configuration list for PBXProject "FeedStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BAFCD83615EC7B8D00337997;
+			productRefGroup = BAFCD84215EC7B8D00337997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAFCD84015EC7B8D00337997 /* FeedStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAFCD83F15EC7B8D00337997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA74558B15EC8005004A6591 /* header_bg.png in Resources */,
+				BA74558C15EC8005004A6591 /* logo.png in Resources */,
+				BA74558D15EC8005004A6591 /* logo@2x.png in Resources */,
+				BA74558E15EC8005004A6591 /* 01.png in Resources */,
+				BA74559315EC8066004A6591 /* FeedStore-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAFCD83D15EC7B8D00337997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA74557F15EC7FAA004A6591 /* FSAppDelegate.m in Sources */,
+				BA74558015EC7FAA004A6591 /* FSHeaderView.m in Sources */,
+				BA74558115EC7FAA004A6591 /* FSRootViewController.m in Sources */,
+				BA74559415EC8066004A6591 /* main.m in Sources */,
+				BA74559815EC810D004A6591 /* FSResource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BAFCD85715EC7B8D00337997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BAFCD85815EC7B8D00337997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAFCD85A15EC7B8D00337997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting Files/FeedStore-Prefix.pch";
+				INFOPLIST_FILE = "Supporting Files/FeedStore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BAFCD85B15EC7B8D00337997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting Files/FeedStore-Prefix.pch";
+				INFOPLIST_FILE = "Supporting Files/FeedStore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAFCD83B15EC7B8D00337997 /* Build configuration list for PBXProject "FeedStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFCD85715EC7B8D00337997 /* Debug */,
+				BAFCD85815EC7B8D00337997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAFCD85915EC7B8D00337997 /* Build configuration list for PBXNativeTarget "FeedStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFCD85A15EC7B8D00337997 /* Debug */,
+				BAFCD85B15EC7B8D00337997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAFCD83815EC7B8D00337997 /* Project object */;
+}
