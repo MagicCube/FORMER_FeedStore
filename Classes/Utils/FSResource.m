@@ -10,28 +10,28 @@
 
 @implementation FSResource
 
-+ (UIImage *)image:(NSString *)name ofType:(NSString *)extension
++ (UIImage *)imageFromFile:(NSString *)name ofType:(NSString *)extension
 {
     NSString *path = [[NSBundle mainBundle] pathForResource:name ofType:extension];
     UIImage *image = [UIImage imageWithContentsOfFile:path];
     return image;
 }
 
-+ (UIImage *)PNG:(NSString *)name
++ (UIImage *)imageFromPNG:(NSString *)name
 {
-    return [FSResource image:name ofType:@"png"];
+    return [FSResource imageFromFile:name ofType:@"png"];
 }
 
-+ (UIImage *)JPG:(NSString *)name
++ (UIImage *)imageFromJPG:(NSString *)name
 {
-    return [FSResource image:name ofType:@"jpg"];
+    return [FSResource imageFromFile:name ofType:@"jpg"];
 }
 
 
 
 + (UIColor *)colorFromPNG:(NSString *)name
 {
-    return [UIColor colorWithPatternImage:[FSResource PNG:name]];
+    return [UIColor colorWithPatternImage:[FSResource imageFromPNG:name]];
 }
 
 @end

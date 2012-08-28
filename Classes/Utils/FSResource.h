@@ -10,9 +10,9 @@
 
 @interface FSResource : NSObject
 
-+ (UIImage *)image:(NSString *)name ofType:(NSString *)extension;
-+ (UIImage *)PNG:(NSString *)name;
-+ (UIImage *)JPG:(NSString *)name;
++ (UIImage *)imageFromFile:(NSString *)name ofType:(NSString *)extension;
++ (UIImage *)imageFromPNG:(NSString *)name;
++ (UIImage *)imageFromJPG:(NSString *)name;
 + (UIColor *)colorFromPNG:(NSString *)name;
 
 @end

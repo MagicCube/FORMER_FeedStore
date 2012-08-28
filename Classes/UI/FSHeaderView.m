@@ -23,7 +23,7 @@
         self.layer.shadowRadius = 5;
         self.layer.shadowOpacity = 0.5;
         
-        UIImageView *logoImageView = [[UIImageView alloc] initWithImage:[FSResource PNG:@"logo"]];
+        UIImageView *logoImageView = [[UIImageView alloc] initWithImage:[FSResource imageFromPNG:@"logo"]];
         [self addSubview:logoImageView];
     }
     return self;
