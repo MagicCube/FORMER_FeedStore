@@ -18,6 +18,8 @@
 		BA74559315EC8066004A6591 /* FeedStore-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA74559015EC8066004A6591 /* FeedStore-Info.plist */; };
 		BA74559415EC8066004A6591 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA74559215EC8066004A6591 /* main.m */; };
 		BA74559815EC810D004A6591 /* FSResource.m in Sources */ = {isa = PBXBuildFile; fileRef = BA74559715EC810D004A6591 /* FSResource.m */; };
+		BA9BCD6515EE3879007F89D0 /* FSFeedListView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BCD6415EE3879007F89D0 /* FSFeedListView.m */; };
+		BA9BCD6915EE3897007F89D0 /* FSFeedListItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BCD6815EE3897007F89D0 /* FSFeedListItemView.m */; };
 		BAC801C515EC8A8F009332E1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAC801C715EC8A8F009332E1 /* Localizable.strings */; };
 		BAFCD84615EC7B8D00337997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFCD84515EC7B8D00337997 /* UIKit.framework */; };
 		BAFCD84815EC7B8D00337997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFCD84715EC7B8D00337997 /* Foundation.framework */; };
@@ -41,6 +43,10 @@
 		BA74559215EC8066004A6591 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA74559615EC810D004A6591 /* FSResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSResource.h; sourceTree = "<group>"; };
 		BA74559715EC810D004A6591 /* FSResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSResource.m; sourceTree = "<group>"; };
+		BA9BCD6315EE3879007F89D0 /* FSFeedListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFeedListView.h; sourceTree = "<group>"; };
+		BA9BCD6415EE3879007F89D0 /* FSFeedListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFeedListView.m; sourceTree = "<group>"; };
+		BA9BCD6715EE3897007F89D0 /* FSFeedListItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFeedListItemView.h; sourceTree = "<group>"; };
+		BA9BCD6815EE3897007F89D0 /* FSFeedListItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFeedListItemView.m; sourceTree = "<group>"; };
 		BAC801C615EC8A8F009332E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BAC801C815EC8AAD009332E1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		BAFCD84115EC7B8D00337997 /* FeedStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +73,10 @@
 		BA74557A15EC7FAA004A6591 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				BA9BCD6315EE3879007F89D0 /* FSFeedListView.h */,
+				BA9BCD6415EE3879007F89D0 /* FSFeedListView.m */,
+				BA9BCD6715EE3897007F89D0 /* FSFeedListItemView.h */,
+				BA9BCD6815EE3897007F89D0 /* FSFeedListItemView.m */,
 				BA74557B15EC7FAA004A6591 /* FSHeaderView.h */,
 				BA74557C15EC7FAA004A6591 /* FSHeaderView.m */,
 				BA74557D15EC7FAA004A6591 /* FSRootViewController.h */,
@@ -247,6 +257,8 @@
 				BA74558115EC7FAA004A6591 /* FSRootViewController.m in Sources */,
 				BA74559415EC8066004A6591 /* main.m in Sources */,
 				BA74559815EC810D004A6591 /* FSResource.m in Sources */,
+				BA9BCD6515EE3879007F89D0 /* FSFeedListView.m in Sources */,
+				BA9BCD6915EE3897007F89D0 /* FSFeedListItemView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

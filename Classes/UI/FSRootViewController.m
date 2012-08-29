@@ -7,6 +7,7 @@
 //
 
 #import "FSRootViewController.h"
+#import "FSFeedListView.h"
 #import "FSHeaderView.h"
 
 @interface FSRootViewController ()
@@ -16,6 +17,7 @@
 @implementation FSRootViewController
 
 @synthesize headerView = _headerView;
+@synthesize listView = _listView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -24,14 +26,11 @@
     {
         self.view.backgroundColor = [FSResource colorFromPNG:@"01"];
         
-        _headerView = [[FSHeaderView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 50)];
+        _headerView = [[FSHeaderView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 50)];
         [self.view addSubview:_headerView];
         
-        UIScrollView *scrollView = [[UIScrollView alloc] init];
-        scrollView.frame = CGRectMake(0, 48, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 48);
-        scrollView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-        scrollView.contentSize = CGSizeMake(scrollView.frame.size.width, scrollView.frame.size.height * 2);
-        [self.view addSubview:scrollView];
+        _listView = [[FSFeedListView alloc] initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, self.view.frame.size.height - 50)];
+        [self.view addSubview:_listView];
     }
     return self;
 }

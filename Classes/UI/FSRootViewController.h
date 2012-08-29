@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@class FSFeedListView;
 @class FSHeaderView;
 
 @interface FSRootViewController : UIViewController
 
 @property (strong, nonatomic) FSHeaderView *headerView;
+@property (strong, nonatomic) FSFeedListView *listView;
 
 @end
